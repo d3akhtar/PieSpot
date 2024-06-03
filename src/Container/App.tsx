@@ -49,6 +49,7 @@ function App() {
           <Route path="/menuItems" element={<MenuItemsList/>}></Route>
           <Route path="/menuItems/upsert/:menuItemId" element={<MenuItemUpsert/>}></Route>
           <Route path="/menuItems/upsert/" element={<MenuItemUpsert/>}></Route>
+          <Route path="/PieSpot" element={<Home/>}></Route>
         </Routes>
       </div>
       <Footer/>
